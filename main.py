@@ -1,3 +1,4 @@
+import functionalities as func
 
 print("Unit Conversion Tool")
 
@@ -7,7 +8,7 @@ while True:
     choice = input("Enter your choice: ")
     
     if choice == "1":
-        print("Length Conversion\n")
+        func.length_conversion()
     elif choice == "2":
         print("Area Conversion\n")
     elif choice == "3":

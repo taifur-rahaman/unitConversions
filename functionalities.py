@@ -1,4 +1,4 @@
-
+import operations as op
 def length_conversion():
     print("Length Conversion\n1. Inches to Centimeters\n2. Feets to Meters\n3. Yards to Meters\n4. Miles to Kilometers\n0. Back to Main Menu")
     
@@ -6,13 +6,13 @@ def length_conversion():
     
     match choice:
         case '1':
-            inches_to_cm()
+            op.in_to_cm()
         case '2':
-            feets_to_meters()
+            op.ft_to_m()
         case "3":
-            yards_to_meters()
+            op.yd_to_m()
         case "4":
-            miles_to_km()
+            op.miles_to_km()
         case "0":
             return
         case _:
