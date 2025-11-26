@@ -10,9 +10,9 @@ while True:
     if choice == "1":
         func.length_conversion()
     elif choice == "2":
-        print("Area Conversion\n")
+        func.area_conversion()
     elif choice == "3":
-        print("Weight Conversion\n")
+        func.weight_conversion()
     elif choice == "0":
         print("Exiting the program.\nGoodbye!")
         break

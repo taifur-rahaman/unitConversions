@@ -25,13 +25,13 @@ def area_conversion():
     
     match choice:
         case '1':
-            sqin_to_sqcm()
+            op.sqin_to_sqcm()
         case '2':
-            sqft_to_sqm()
+            op.sqft_to_sqm()
         case "3":
-            sqmile_to_sqkm()
+            op.sqmile_to_sqkm()
         case "4":
-            acres_to_hectares()
+            op.acres_to_hectares()
         case "0":
             return
         case _:
@@ -44,13 +44,9 @@ def weight_conversion():
     
     match choice:
         case '1':
-            pounds_to_kg()
+            op.pounds_to_kg()
         case '2':
-            ounces_to_grams()
-        case "3":
-            stones_to_kg()
-        case "4":
-            tons_to_metric_tons()
+            op.ounces_to_grams()
         case "0":
             return
         case _:
